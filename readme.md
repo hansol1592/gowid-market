@@ -32,10 +32,17 @@ expo init my-project
 
 - [TypeScript](https://docs.expo.io/guides/typescript/)
 - [WebView](https://docs.expo.io/versions/latest/sdk/webview/)
+- [App Icons](https://docs.expo.io/guides/app-icons/)
+- [Building Standalone Apps](https://docs.expo.io/distribution/building-standalone-apps/)
+- [Permissions](https://docs.expo.io/versions/latest/sdk/permissions/)
 - [Network](https://docs.expo.io/versions/latest/sdk/network/)
 - [Security](https://docs.expo.io/distribution/security/#device-tokens-for-ios-and-android-push)
 - [Notifications](https://docs.expo.io/versions/latest/sdk/notifications/)
 - [Fetching tokens for push notifications](https://docs.expo.io/versions/latest/sdk/notifications/#fetching-tokens-for-push-notifications)
+
+### react native webview
+
+- [react-native-webview](https://github.com/react-native-webview/react-native-webview/blob/master/docs/Guide.md#react-native-webview-guide)
 
 ### IOS, Android 환경 설정
 
@@ -99,8 +106,14 @@ expo init my-project
 - for test
 - Expo terminal, vs code terminal 에서 둘 다 가능
 
+### Icon and Splash
+
+- app.json
+  - "icon", "splash" 에 설정
+
 ### Tips
 
+- [React 웹 사이트 및 Webview로 React-Native 앱을 빌드하는 방법](https://ichi.pro/ko/react-web-saiteu-mich-webviewlo-react-native-aeb-eul-bildeuhaneun-bangbeob-47163934825479)
 - [[리액트 네이티브(React Native, RN)] 앱과 웹뷰(Webview) 사이에서 인터페이스를 활용해 커뮤니케이션(통신)하는 방법(react native communicate between app webview)](https://webruden.tistory.com/305)
 - [React Native : iOS 용 앱 권한 관리](https://ichi.pro/ko/react-native-ios-yong-aeb-gwonhan-gwanli-72588741600664)
 
