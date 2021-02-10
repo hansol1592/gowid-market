@@ -2,10 +2,10 @@
 
 ### expo 사용
 
-    - 현재 프로젝트의 목표에 expo 가 충분한 기능을 제공합니다.
-        - network, webview, camera...
-    - Managed workflow - typescript 를 사용합니다.
-    - 추후 프로젝트 고도화에 따라 native 기능이 필요할 경우 Bare workflow 사용 또는 eject 등의 방법을 활용 할 수 있습니다.
+- 현재 프로젝트의 목표에 expo 가 충분한 기능을 제공합니다.
+  - network, webview, camera...
+- Managed workflow - typescript 를 사용합니다.
+- 추후 프로젝트 고도화에 따라 native 기능이 필요할 경우 Bare workflow 사용 또는 eject 등의 방법을 활용 할 수 있습니다.
 
 #### expo-cli 설치
 
@@ -41,7 +41,8 @@ expo init my-project
 
 #### Xcode
 
-- Xcode 설치 - App Store
+- Xcode 설치
+  - App Store
 - Xcode > Preferneces > Location - 최신 버전인지 확인
 - Xcode > Open Developer Tools > Simulator
 
@@ -75,6 +76,28 @@ expo init my-project
     - 터미널에서 adb 를 입력하여 경로 설정 확인
 
 ### Debug
+
+- `console.log()`
+- chrome debugger
+
+  - Expo App 에서 개발자 도구를 열어서 'Remote Debugging' 선택 - chrome 에서 디버깅 가능
+  - 개발자 도구에서 source 탭에 'Pause on exception' 선택하여 에러 발생 위치 확인
+
+  - 사용시 app 이 느려질 수 있으므로 사용 후 'Stop Remote Debugging'
+
+- React Native Tools - vs code extensions
+  - vs code debugger 탭에서 react native 설정
+    - Attach to packager 선택
+    - 'Add Configuration' 으로 추가 가능
+  - react-native degugging 포트 변경
+    - Settings > React Native packager port
+    - 기본 세팅은 8081
+    - Remote Debugging 을 실행했을 때의 포트로 변경
+
+### Publish
+
+- for test
+- Expo terminal, vs code terminal 에서 둘 다 가능
 
 ### Tips
 
